@@ -7,7 +7,7 @@ __version__ = "0.0.0"
 
 REPO_NAME = "face-recognition"
 AUTHOR_USER_NAME = "AudreyNessa"
-SRC_REPO = "face-recognition"
+SRC_REPO = "cnnClassifier"
 AUTHOR_EMAIL = "audreynessa1@gmail.com"
 
 setuptools.setup(
