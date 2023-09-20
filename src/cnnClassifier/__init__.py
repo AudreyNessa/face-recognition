@@ -1,3 +1,4 @@
+import os
 import sys
 import logging
 
@@ -12,9 +13,9 @@ logging.basicConfig(
     format=logging_str,
 
     handlers=[
-        logging.Filehandler(log_filepath),
+        logging.FileHandler(log_filepath),
         logging.StreamHandler(sys.stdout)
     ]
 )
 
-logger = logging.getlogger("faceRecognitionLogger")
+logger = logging.getLogger("cnnClassifierLogger")
